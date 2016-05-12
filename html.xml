@@ -1,0 +1,197 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<photoCollection mode="publish">
+	<display>
+		<style cellBorderColor="#787878" cellRolloverColor="#a1a1a1" cssVersion="146103300625742260" idplateEnabled="false" 			css="
+				#previewFull {background-color: #666666 !important; width: 482px !important; color: inherit}
+				#liveUpdateContactInfo {color: #b3b3b3 !important; background-color: inherit;}
+				.borderRightDotted {border-right: 1px dotted #787878 !important;}
+				.logo {display: none !important;}
+				#liveUpdateCollectionDescription {color: #b3b3b3 !important; background-color: inherit;}
+				.detailNav, .detailLinks, #detailCaption, #detailTitle {color: #b3b3b3 !important; background-color: inherit;}
+				.emptyThumbnail {background-color: #949494 !important; color: inherit;}
+				.thumbnail {background-color: #949494 !important; color: inherit;}
+				.previewFullImage {height: 400px !important; width: 482px !important;}
+				#stage2 {width: 484px !important;}
+				.itemNumber {display: none !important; color: #9c9c9c !important; background-color: inherit;}
+				#content {background-color: #ffffff !important; color: inherit;}
+				.borderTopLeft {border-top: 1px solid #787878 !important; border-left: 1px solid #787878 !important;}
+				#stage {width: 484px !important;}
+				.caption {color: #b3b3b3 !important; background-color: inherit;}
+				#wrapper2 {width: 484px !important;}
+				.borderBottomRight {border-right: 1px solid #787878 !important; border-bottom: 1px solid #787878 !important;}
+				#wrapper {width: 484px !important;}
+				#liveUpdateCollectionTitle {color: #b3b3b3 !important; background-color: inherit;}
+				.paginationLinks, .pagination, #liveUpdatePagination {color: #b3b3b3 !important; background-color: inherit;}
+				.selectedThumbnail, .thumbnail:hover {background-color: #a1a1a1 !important; color: inherit;}
+				#liveUpdateSiteTitle {color: #b3b3b3 !important; background-color: inherit;}
+				#thumbnailName {color: #b3b3b3 !important; background-color: inherit;}
+				#largeName {color: #b3b3b3 !important; background-color: inherit; margin-top: 10px; margin-left: 7px; margin-right: 7px;}
+				.borderBottom {border-bottom: 1px solid #787878 !important;}
+				.borderRight {border-right: 1px solid #787878 !important;}
+				body {background-color: #ffffff !important; color: inherit;}
+			"
+		identityPlateAbsolutePath="" 
+numCols="3" 
+numRows="5" 
+homePage="index.html" 
+imageBase="content" 
+cellColor="#949494">
+		</style>
+		<metadata>
+			<creationDate formatted="Mon Apr 18 2016 22:30:06 GMT-0400"></creationDate>
+			<groupTitle value="Illustration"></groupTitle>
+			<contactInfo value="graphicsflo.com" link="mailto:rarjune@graphicsflo.com"></contactInfo>
+			<siteTitle value="Web Gallery"></siteTitle>
+			<groupDescription value="graphicsflo.com Illustrative artwork"></groupDescription>
+		</metadata>
+		<localization>
+			<item id="AdobeLightroomWebSite" localized="http://labs.adobe.com/technologies/lightroom/"></item>
+			<item id="AdobeLightroomBeta" localized="Adobe Lightroom Beta"></item>
+			<item id="Fullsize" localized="Fullsize"></item>
+			<item id="Next" localized="Next"></item>
+			<item id="Previous" localized="Previous"></item>
+			<item id="EmptyGallery" localized="There are no images in this gallery."></item>
+			<item id="more" localized="more"></item>
+			<item id="Index" localized="Index"></item>
+		</localization>
+	</display>
+	<head>
+		<siteTitle></siteTitle>
+		<collectionName></collectionName>
+		<collectionTitle></collectionTitle>
+		<collectionDescription></collectionDescription>
+		<contactInfo></contactInfo>
+		<slideDuration></slideDuration>
+		<sizes>
+			<size name="large" height="400" width="400"></size>
+			<size name="thumb" height="129" width="129"></size>
+		</sizes>
+	</head>
+	<samples totalGallerySize="15" firstSampleIndex="1">
+	<img orientation="BC" imageID="0_1461033006263" filename="a_roses" tipname="%_tempFileNamea_roses%" >
+		<text>
+			<title></title>
+			<description>Roses: Oil on Canvas</description>
+		</text>
+		<rendition path="content/bin/images/large/a_roses.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/a_roses.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="1_1461033006265" filename="b_k_image" tipname="%_tempFileNameb_k_image%" >
+		<text>
+			<title></title>
+			<description>Marker &amp; Color Pencil</description>
+		</text>
+		<rendition path="content/bin/images/large/b_k_image.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/b_k_image.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="2_1461033006267" filename="coffee" tipname="%_tempFileNamecoffee%" >
+		<text>
+			<title></title>
+			<description>Stippled technique with pencil </description>
+		</text>
+		<rendition path="content/bin/images/large/coffee.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/coffee.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="3_1461033006270" filename="drink" tipname="%_tempFileNamedrink%" >
+		<text>
+			<title></title>
+			<description>Pencil &amp; Marker</description>
+		</text>
+		<rendition path="content/bin/images/large/drink.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/drink.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="4_1461033006273" filename="flowers_vase" tipname="%_tempFileNameflowers_vase%" >
+		<text>
+			<title></title>
+			<description>Water color </description>
+		</text>
+		<rendition path="content/bin/images/large/flowers_vase.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/flowers_vase.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="5_1461033006275" filename="g_k_stand_image" tipname="%_tempFileNameg_k_stand_image%" >
+		<text>
+			<title></title>
+			<description>Marker and color pencil</description>
+		</text>
+		<rendition path="content/bin/images/large/g_k_stand_image.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/g_k_stand_image.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="6_1461033006278" filename="grass" tipname="%_tempFileNamegrass%" >
+		<text>
+			<title></title>
+			<description>Digital image rendering</description>
+		</text>
+		<rendition path="content/bin/images/large/grass.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/grass.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="7_1461033006280" filename="guy" tipname="%_tempFileNameguy%" >
+		<text>
+			<title></title>
+			<description>Marker &amp; color pencil</description>
+		</text>
+		<rendition path="content/bin/images/large/guy.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/guy.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="8_1461033006282" filename="k_b&amp;w" tipname="%_tempFileNamek_b&amp;w%" >
+		<text>
+			<title></title>
+			<description>Pastel and Maker</description>
+		</text>
+		<rendition path="content/bin/images/large/k_b&amp;w.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/k_b&amp;w.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="9_1461033006284" filename="m_g_flower_yellow" tipname="%_tempFileNamem_g_flower_yellow%" >
+		<text>
+			<title></title>
+			<description>Pastel, Color Pencil &amp; Marker</description>
+		</text>
+		<rendition path="content/bin/images/large/m_g_flower_yellow.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/m_g_flower_yellow.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="10_1461033006285" filename="p_baseball" tipname="%_tempFileNamep_baseball%" >
+		<text>
+			<title></title>
+			<description>Pasel and Marker</description>
+		</text>
+		<rendition path="content/bin/images/large/p_baseball.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/p_baseball.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="11_1461033006287" filename="perfume" tipname="%_tempFileNameperfume%" >
+		<text>
+			<title></title>
+			<description>Marker and Color pencil</description>
+		</text>
+		<rendition path="content/bin/images/large/perfume.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/perfume.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="12_1461033006289" filename="watch" tipname="%_tempFileNamewatch%" >
+		<text>
+			<title></title>
+			<description>Marker &amp; color pencil: rendered in photoshop</description>
+		</text>
+		<rendition path="content/bin/images/large/watch.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/watch.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="13_1461033006291" filename="y_leaves" tipname="%_tempFileNamey_leaves%" >
+		<text>
+			<title></title>
+			<description>Water color</description>
+		</text>
+		<rendition path="content/bin/images/large/y_leaves.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/y_leaves.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="14_1461033006292" filename="z_crying_boy" tipname="%_tempFileNamez_crying_boy%" >
+		<text>
+			<title></title>
+			<description>Marker and Color Pencil</description>
+		</text>
+		<rendition path="content/bin/images/large/z_crying_boy.jpg" height="270" width="396" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/z_crying_boy.jpg" height="87" width="129" size="thumb"></rendition>
+	</img>
+	</samples>
+	<siteParams>
+		<firstImage index="1"></firstImage>
+		<lastImage index="15"></lastImage>
+		<mode value="all"></mode>
+	</siteParams>
+</photoCollection>

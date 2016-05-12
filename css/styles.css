@@ -1,0 +1,549 @@
+@charset "UTF-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+	
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:90%;
+}
+
+
+
+@charset "UTF-8";
+@import url("webfonts/roboto/stylesheet.css");
+body {
+	font-family: roboto;
+	margin: 0;
+	padding: 0;	
+	background-color: #FFFFFF;
+
+	
+}
+    body,td,th {
+	font-family: roboto;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 830px;
+      margin: 0 auto;
+	 
+  }
+
+ 
+}
+
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 2%;
+	background-color: #FFFFFF;
+	background-size: auto;
+	border-color: #999999;
+	border-radius: 2px;	
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+	}
+
+.welcome {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 auto;
+	background-size: auto;
+	
+	border-radius: 1px;
+	
+	}
+
+.col-sm-8{
+	padding-left:inherit;
+	width: inherit;
+	border: groove;
+	border-radius: 12px; 
+	margin: 2px;
+	
+}
+	
+	
+.col-sm-8:hover { 
+	-moz-box-shadow: 0 0 20px #317344; 
+	-webkit-box-shadow: 0 0 20px #317344; 
+	box-shadow: 0 0 20px  #317344; 
+	opacity: 0.5; filter: alpha(opacity=30);
+	} 
+
+	
+	}
+	
+	
+#tJHJj{
+	height: 20px;
+	}
+
+.col-md-4{
+	float: right;
+	margin-right: 22px;
+
+	
+	}
+
+.col-md-6{
+	margin: 2px;
+	
+	}
+	
+.col-md-12{
+	margin: 5px;
+	
+	}
+
+header{
+	background-color: #000000;
+	background-size:cover;
+	padding-top:10px;
+	padding-left:15px;
+	padding-bottom: 12px;
+	color: #F9C600;
+
+	}
+	
+
+footer{
+	   position: fixed;
+	   bottom:0;
+	   width:100%;
+	   height: 60px; 
+	   text-align: center;
+	   padding-top: 20px;
+	   font-family:roboto;
+	   font-size: .80em;
+	   color: #CCCCCC;
+	   background-color: #333333;
+
+	}
+		
+
+#gallery{
+	text-align: center;
+	
+	}  
+	
+.copyright{
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 2px;
+	font-family:roboto;
+	color: #CCCCCC;
+	font-size: .50em;
+	}
+	
+.pageBody{
+	   position: fixed;
+	   bottom:0;
+	   width:100%;
+	   height: 0 auto;
+	   background-color: #FFFFFF;
+	   padding-bottom: 10px;
+	
+	}
+	
+.para, p{
+	text-align: justify;
+	padding-bottom: 12px;
+	
+	}
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+	
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	
+}
+}
+
+
+.nav, dropdown, dropbtn{
+	text-align: center;
+	width: 100%;
+	}
+
+.nav ul, dropdown,dropbtn {
+  list-style: none;
+  background-color: #33CC99;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+}
+.nav li, dropdown,dropbtn {
+  font-family: roboto;
+  font-size: 1em;
+  line-height: 23px;
+  height: 23px;
+  border-bottom: 1.5px solid #888;
+}
+ 
+.nav a,dropdown,dropbtn {
+  text-decoration: none;
+  color: #66CC99;
+  display: list-item;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover, dropdown,dropbtn {
+  background-color: #99FFCC;
+}
+ 
+.nav a.active, dropdown,dropbtn {
+  background-color: #2C7349;
+  color: #CCCCCC;
+  cursor: default;
+}
+
+.nav a:visited, dropdown,dropbtn {
+	color: #993300;
+}
+
+.nav a:link {
+	color: #000000;
+}
+ 
+.nav a:active {
+	color: #CCCCCC;
+} 
+
+@media screen and (min-width: 600px) {
+  .nav li, dropbtn, dropdown {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  .nav li,dropbtn, dropdown {
+    display:  inline-block;
+    margin-right: -4px;
+  }
+ 
+}
+
+
+
+
+h5{
+	font-family: roboto;
+	font-size: 1.25em;
+	color: #41CB94;
+	padding-bottom: 6px;
+	
+	}
+	
+	
+h6 {
+	text-align: left;
+	font-family:roboto;
+	color: #FFFFFF;
+	font-size: 2em;
+	margin-left: 55px;
+	margin-bottom: 20px;
+	
+	}
+	
+
+h7 {
+	font-family: roboto;
+	font-size: 1.75em;
+	color: #7BE059;
+	padding-bottom: 6px;
+	
+	}	
+	
+	
+.shopping {
+	width: 70%;
+	margin: 0 auto;
+	
+
+	}
+
+.myBox{
+	width: 100%;
+	padding-left: 7%;
+	padding-right: 7%;
+	}
+
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5,  p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #99CC99;
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #666666;
+	text-decoration: none;
+	
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
+.header {
+	background-color: #ADB96E;
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+
+.content {
+	padding: 10px 0;
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding: 10px 0;
+	background-color: #CCC49F;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+
+.button {
+   border-top: 1px solid #97f7b5;
+   background: #99ff99;
+   background: -webkit-gradient(linear, left top, left bottom, from(#59c94c), to(#99ff99));
+   background: -webkit-linear-gradient(top, #59c94c, #99ff99);
+   background: -moz-linear-gradient(top, #59c94c, #99ff99);
+   background: -ms-linear-gradient(top, #59c94c, #99ff99);
+   background: -o-linear-gradient(top, #59c94c, #99ff99);
+   padding: 2px 4px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 10px;
+   font-family: roboto;
+   text-decoration: none;
+   vertical-align: middle;
+   width: 50px;
+   text-align:center;
+ 	
+	
+   }
+.button:hover {
+   border-top-color: #fafafa;
+   background: #fafafa;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #3B9961;
+   
+   
+   }
+
+/*dropdown menu*/
+.dropbtn {
+    background-color: #41CB94;
+    color: white;
+	width: 100%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+	width: 100%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 2px 2px;
+    text-decoration: none;
+    display: block;
+	z-index: 2;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #99FFCC}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+	z-index: 5;
+
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #99FFCC;
+}
+
+
+/*door*/
+.tile 
+{
+    background-color: #000;
+    color: #ffffff;
+    border: 1px solid #220001;
+}
+
+.tile .front {
+    transition: all 1.5s ease-in-out;
+    -webkit-transform: perspective(500) rotateY(0deg);
+    -webkit-transform-origin: 0% 0%;
+    backface-visibility: visible;
+}
+
+/* Flip the tile when hovered */
+.tile:hover .front, .tile.hover .front 
+{
+    -webkit-transform: perspective(500) rotateY(-95deg);
+    -webkit-transform-origin: 0% 0%;
+}
+
+
+.tile, .front, .back 
+{
+    width: 220px;
+    height: 320px;
+}
+
+.flipper 
+{
+    position: inherit;
+}
+
+.front, .back 
+{
+    backface-visibility: hidden;
+    position: absolute;
+ 
+}
+
+/* Front Tile - placed above back */
+.front 
+{
+    z-index: 1;
+    transform: rotateY(0deg);
+    /*background-color: #760805;*/
+	background-image:url(../images/reddoor.png);
+	background-repeat:no-repeat;
+	background-size: 220px;
+}
+
+/* Back - initially hidden Tile */
+.back
+{
+    background-color: #41CB94;
+	width: 220px;
+	height: 100px;
+}
+
+
+
+
+}
