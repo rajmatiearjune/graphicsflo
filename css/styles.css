@@ -68,12 +68,12 @@ body {
 
 .col-sm-8{
 	padding-left:inherit;
-	width: inherit;
-
-
+	width: auto;
 	border: groove;
 	border-radius: 12px; 
 	margin: .5%;
+	padding-left: .82%;
+	padding-right: .82%;
 	
 }
 	
@@ -84,6 +84,8 @@ body {
 	box-shadow: 0 0 20px  #317344; 
 	opacity: 0.5; filter: alpha(opacity=30);
 	} 
+
+
 
 	
 	}
